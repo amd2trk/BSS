@@ -1,5 +1,5 @@
-# BMS
-Bank Managment system
+# BSS
+Bank Service system
 
 This program is written in C++ and WxWidgets
   
