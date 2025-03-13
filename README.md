@@ -32,6 +32,16 @@ The Bank Service System (BSS) is a C++ application developed using the wxWidgets
 - Choose the appropriate service module: Teller, Customer Service, or VIP Services.
 - Follow on-screen instructions to perform desired operations.
 
+## Testing
+
+A `test_program` is provided to validate the functionality of the system. This test program operates exclusively in the terminal. To run the test program, execute the following command in your terminal:
+
+```bash
+./test_program
+```
+
+Follow the on-screen prompts to conduct various tests and ensure that all components of the Bank Service System are functioning correctly.
+
 ## Contributing
 
 Contributions are welcome! Please fork the repository and submit a pull request for any enhancements or bug fixes.
@@ -45,3 +55,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 Special thanks to the developers and contributors of the wxWidgets library for providing a robust framework for building cross-platform applications.
 
 ---
+
+For more information, visit the [GitHub repository](https://github.com/amd2trk/BMS).
