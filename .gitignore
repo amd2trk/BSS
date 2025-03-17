@@ -1,5 +1,8 @@
-# Ignore build directory
+﻿# Ignore build directory
 build/
+
+#Ignore devloper-specific files 
+images/
 
 # Ignore compiled object files
 *.o
@@ -17,6 +20,7 @@ build/
 *.user
 .vscode/
 .idea/
+
 
 # Ignore system-specific files
 .DS_Store
