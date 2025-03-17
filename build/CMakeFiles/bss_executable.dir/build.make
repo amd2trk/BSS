@@ -114,24 +114,10 @@ CMakeFiles/bss_executable.dir/vip_customer_service.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/bss_executable.dir/vip_customer_service.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ahmed/Dev/BSS/vip_customer_service.cpp -o CMakeFiles/bss_executable.dir/vip_customer_service.cpp.s
 
-CMakeFiles/bss_executable.dir/Bank_Service_System.cpp.o: CMakeFiles/bss_executable.dir/flags.make
-CMakeFiles/bss_executable.dir/Bank_Service_System.cpp.o: /home/ahmed/Dev/BSS/Bank_Service_System.cpp
-CMakeFiles/bss_executable.dir/Bank_Service_System.cpp.o: CMakeFiles/bss_executable.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ahmed/Dev/BSS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/bss_executable.dir/Bank_Service_System.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bss_executable.dir/Bank_Service_System.cpp.o -MF CMakeFiles/bss_executable.dir/Bank_Service_System.cpp.o.d -o CMakeFiles/bss_executable.dir/Bank_Service_System.cpp.o -c /home/ahmed/Dev/BSS/Bank_Service_System.cpp
-
-CMakeFiles/bss_executable.dir/Bank_Service_System.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/bss_executable.dir/Bank_Service_System.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ahmed/Dev/BSS/Bank_Service_System.cpp > CMakeFiles/bss_executable.dir/Bank_Service_System.cpp.i
-
-CMakeFiles/bss_executable.dir/Bank_Service_System.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/bss_executable.dir/Bank_Service_System.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ahmed/Dev/BSS/Bank_Service_System.cpp -o CMakeFiles/bss_executable.dir/Bank_Service_System.cpp.s
-
 CMakeFiles/bss_executable.dir/customer_service.cpp.o: CMakeFiles/bss_executable.dir/flags.make
 CMakeFiles/bss_executable.dir/customer_service.cpp.o: /home/ahmed/Dev/BSS/customer_service.cpp
 CMakeFiles/bss_executable.dir/customer_service.cpp.o: CMakeFiles/bss_executable.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ahmed/Dev/BSS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/bss_executable.dir/customer_service.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ahmed/Dev/BSS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/bss_executable.dir/customer_service.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bss_executable.dir/customer_service.cpp.o -MF CMakeFiles/bss_executable.dir/customer_service.cpp.o.d -o CMakeFiles/bss_executable.dir/customer_service.cpp.o -c /home/ahmed/Dev/BSS/customer_service.cpp
 
 CMakeFiles/bss_executable.dir/customer_service.cpp.i: cmake_force
@@ -142,13 +128,27 @@ CMakeFiles/bss_executable.dir/customer_service.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/bss_executable.dir/customer_service.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ahmed/Dev/BSS/customer_service.cpp -o CMakeFiles/bss_executable.dir/customer_service.cpp.s
 
+CMakeFiles/bss_executable.dir/main.cpp.o: CMakeFiles/bss_executable.dir/flags.make
+CMakeFiles/bss_executable.dir/main.cpp.o: /home/ahmed/Dev/BSS/main.cpp
+CMakeFiles/bss_executable.dir/main.cpp.o: CMakeFiles/bss_executable.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ahmed/Dev/BSS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/bss_executable.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bss_executable.dir/main.cpp.o -MF CMakeFiles/bss_executable.dir/main.cpp.o.d -o CMakeFiles/bss_executable.dir/main.cpp.o -c /home/ahmed/Dev/BSS/main.cpp
+
+CMakeFiles/bss_executable.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/bss_executable.dir/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ahmed/Dev/BSS/main.cpp > CMakeFiles/bss_executable.dir/main.cpp.i
+
+CMakeFiles/bss_executable.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/bss_executable.dir/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ahmed/Dev/BSS/main.cpp -o CMakeFiles/bss_executable.dir/main.cpp.s
+
 # Object files for target bss_executable
 bss_executable_OBJECTS = \
 "CMakeFiles/bss_executable.dir/customer_service_choice.cpp.o" \
 "CMakeFiles/bss_executable.dir/teller.cpp.o" \
 "CMakeFiles/bss_executable.dir/vip_customer_service.cpp.o" \
-"CMakeFiles/bss_executable.dir/Bank_Service_System.cpp.o" \
-"CMakeFiles/bss_executable.dir/customer_service.cpp.o"
+"CMakeFiles/bss_executable.dir/customer_service.cpp.o" \
+"CMakeFiles/bss_executable.dir/main.cpp.o"
 
 # External object files for target bss_executable
 bss_executable_EXTERNAL_OBJECTS =
@@ -156,8 +156,8 @@ bss_executable_EXTERNAL_OBJECTS =
 bss_executable: CMakeFiles/bss_executable.dir/customer_service_choice.cpp.o
 bss_executable: CMakeFiles/bss_executable.dir/teller.cpp.o
 bss_executable: CMakeFiles/bss_executable.dir/vip_customer_service.cpp.o
-bss_executable: CMakeFiles/bss_executable.dir/Bank_Service_System.cpp.o
 bss_executable: CMakeFiles/bss_executable.dir/customer_service.cpp.o
+bss_executable: CMakeFiles/bss_executable.dir/main.cpp.o
 bss_executable: CMakeFiles/bss_executable.dir/build.make
 bss_executable: CMakeFiles/bss_executable.dir/compiler_depend.ts
 bss_executable: CMakeFiles/bss_executable.dir/link.txt

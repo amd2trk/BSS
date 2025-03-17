@@ -5,8 +5,8 @@ bss_executable: \
   CMakeFiles/bss_executable.dir/customer_service_choice.cpp.o \
   CMakeFiles/bss_executable.dir/teller.cpp.o \
   CMakeFiles/bss_executable.dir/vip_customer_service.cpp.o \
-  CMakeFiles/bss_executable.dir/Bank_Service_System.cpp.o \
   CMakeFiles/bss_executable.dir/customer_service.cpp.o \
+  CMakeFiles/bss_executable.dir/main.cpp.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/libstdc++.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/libm.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/libm.so \
@@ -47,9 +47,9 @@ CMakeFiles/bss_executable.dir/teller.cpp.o:
 
 CMakeFiles/bss_executable.dir/vip_customer_service.cpp.o:
 
-CMakeFiles/bss_executable.dir/Bank_Service_System.cpp.o:
-
 CMakeFiles/bss_executable.dir/customer_service.cpp.o:
+
+CMakeFiles/bss_executable.dir/main.cpp.o:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/libstdc++.so:
 

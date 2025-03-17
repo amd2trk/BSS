@@ -136,30 +136,6 @@ bss_executable/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bss_executable.dir/build.make CMakeFiles/bss_executable.dir/build
 .PHONY : bss_executable/fast
 
-Bank_Service_System.o: Bank_Service_System.cpp.o
-.PHONY : Bank_Service_System.o
-
-# target to build an object file
-Bank_Service_System.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bss_executable.dir/build.make CMakeFiles/bss_executable.dir/Bank_Service_System.cpp.o
-.PHONY : Bank_Service_System.cpp.o
-
-Bank_Service_System.i: Bank_Service_System.cpp.i
-.PHONY : Bank_Service_System.i
-
-# target to preprocess a source file
-Bank_Service_System.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bss_executable.dir/build.make CMakeFiles/bss_executable.dir/Bank_Service_System.cpp.i
-.PHONY : Bank_Service_System.cpp.i
-
-Bank_Service_System.s: Bank_Service_System.cpp.s
-.PHONY : Bank_Service_System.s
-
-# target to generate assembly for a file
-Bank_Service_System.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bss_executable.dir/build.make CMakeFiles/bss_executable.dir/Bank_Service_System.cpp.s
-.PHONY : Bank_Service_System.cpp.s
-
 customer_service.o: customer_service.cpp.o
 .PHONY : customer_service.o
 
@@ -207,6 +183,30 @@ customer_service_choice.s: customer_service_choice.cpp.s
 customer_service_choice.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bss_executable.dir/build.make CMakeFiles/bss_executable.dir/customer_service_choice.cpp.s
 .PHONY : customer_service_choice.cpp.s
+
+main.o: main.cpp.o
+.PHONY : main.o
+
+# target to build an object file
+main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bss_executable.dir/build.make CMakeFiles/bss_executable.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bss_executable.dir/build.make CMakeFiles/bss_executable.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bss_executable.dir/build.make CMakeFiles/bss_executable.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 teller.o: teller.cpp.o
 .PHONY : teller.o
@@ -266,15 +266,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... bss_executable"
-	@echo "... Bank_Service_System.o"
-	@echo "... Bank_Service_System.i"
-	@echo "... Bank_Service_System.s"
 	@echo "... customer_service.o"
 	@echo "... customer_service.i"
 	@echo "... customer_service.s"
 	@echo "... customer_service_choice.o"
 	@echo "... customer_service_choice.i"
 	@echo "... customer_service_choice.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 	@echo "... teller.o"
 	@echo "... teller.i"
 	@echo "... teller.s"

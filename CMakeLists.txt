@@ -5,6 +5,6 @@ add_executable(bss_executable
     customer_service_choice.cpp
     teller.cpp
     vip_customer_service.cpp
-    Bank_Service_System.cpp  
     customer_service.cpp
+    main.cpp
 )
