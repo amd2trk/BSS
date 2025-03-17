@@ -1,3 +1,0 @@
-/home/ahmed/Dev/BSS/build/CMakeFiles/bss_executable.dir
-/home/ahmed/Dev/BSS/build/CMakeFiles/edit_cache.dir
-/home/ahmed/Dev/BSS/build/CMakeFiles/rebuild_cache.dir
