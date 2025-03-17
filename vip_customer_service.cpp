@@ -1,4 +1,6 @@
 #include <iostream>
+#include "functions.h"
+
 using namespace std;
 
 /**
@@ -17,13 +19,13 @@ using namespace std;
  * The program uses a switch statement to handle different service options.
  */
 
-void customer_service() {
+void vip_customer_service()  {
     int balance;
     string transaction_number, account_password;
     int number_of_service;
     string choice;
 
-   // Prompt the user to select a service  
+    // Prompt the user to select a service  
     cout << "List of Services Available:" << '\n'<< endl;
     cout << "---------------------------" << '\n'<< endl;
     cout << "1. Account Information" << '\n'<< endl;
@@ -32,6 +34,8 @@ void customer_service() {
     cout << "4. Credit Card Assistance" << '\n'<< endl;
     cout << "5. Online Banking Support" << '\n'<< endl;
     cout << "6. New Account Opening" << '\n'<< endl;
+    cout << "7. ATM Card Issues" << '\n'<< endl;
+    cout << "8. Complaint Resolution" << '\n'<< endl;
     cin >> number_of_service;
 
     switch (number_of_service) {
@@ -72,5 +76,11 @@ void customer_service() {
         case 6:
             // Display FAQ or chatbot
             break;
-        }
+        case 7:
+            // Connect to customer service
+            break;
+        case 8:
+            // Display FAQ or chatbot
+            break;
+    }
 }

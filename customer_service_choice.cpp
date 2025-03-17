@@ -1,5 +1,7 @@
 #include <iostream>
 #include <cstdlib>
+#include "functions.h"
+
 
 using namespace std;
 
@@ -20,10 +22,10 @@ void customer_service_choice(){
     // Check if the account balance qualifies for VIP services
     if (account_balance > 50000) {
         cout << "VIP customer Services" << '\n'<< endl;
-        system("./VIP_Customer_Service");
+         vip_customer_service();
     }
     else{
-    system("./Customer_Service");
+    customer_service();
     }
     // Placeholder for allowing the user to choose between VIP and normal services
 }
