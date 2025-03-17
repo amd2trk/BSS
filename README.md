@@ -1,6 +1,6 @@
 # Bank Service System (BSS)
 
-The Bank Service System (BSS) is a C++ application developed using the wxWidgets library. It is designed to streamline and manage various banking services, catering to both tellers and customer service representatives.
+The Bank Service System (BSS) is a C++ application. It is designed to streamline and manage various banking services, catering to both tellers and customer service representatives.
 
 ## Features
 
@@ -23,7 +23,6 @@ The Bank Service System (BSS) is a C++ application developed using the wxWidgets
    ```
 
 3. **Build the Application**:
-   - Ensure you have wxWidgets installed on your system.
    - Use your preferred C++ compiler to build the application.
 
 ## Usage
@@ -56,4 +55,6 @@ Special thanks to the developers and contributors of the wxWidgets library for p
 
 ---
 
-For more information, visit the [GitHub repository](https://github.com/amd2trk/BMS).
+## Future Plans
+
+Use the WxWidgets library to implement a GUI interface
