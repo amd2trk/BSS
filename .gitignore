@@ -1,5 +1,7 @@
-﻿# Ignore build directory
+﻿# Ignore build and anything else related directory
 build/
+bin/
+lib/
 
 #Ignore devloper-specific files 
 images/
